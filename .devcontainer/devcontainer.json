@@ -2,17 +2,17 @@
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.191.1/containers/java
 {
 	"name": "Java",
-	 "build": {
-		"dockerfile": "Dockerfile",
-		"args": {
+	// "build": {
+	//	"dockerfile": "Dockerfile",
+	//	"args": {
 			// Update the VARIANT arg to pick a Java version: 11, 16
-			"VARIANT": "11",
+	//		"VARIANT": "11",
 			// Options
-			"INSTALL_MAVEN": "true",
-			"INSTALL_GRADLE": "false",
-			"NODE_VERSION": "none"
-		}
-	},
+	//		"INSTALL_MAVEN": "true",
+	//		"INSTALL_GRADLE": "false",
+	//		"NODE_VERSION": "none"
+	//	}
+	//},
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": { 
@@ -31,9 +31,9 @@
 // Configure tool-specific properties.		
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
-				//"vscjava.vscode-java-pack",
-				///"ms-vscode.vscode-node-azure-pack",
-				//"Pivotal.vscode-boot-dev-pack",
+				"vscjava.vscode-java-pack",
+				"ms-vscode.vscode-node-azure-pack",
+				"Pivotal.vscode-boot-dev-pack",
 				"hashicorp.terraform",
 				"ms-kubernetes-tools.vscode-kubernetes-tools"
 			],
@@ -41,15 +41,15 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "java -version",
+	 "postCreateCommand": "java -version",
 
 	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-	//"remoteUser": "vscode",
-"postAttachCommand": "minikube start"
-// "hostRequirements": {
-  //      "cpus": 4,
-    //    "memory": "8gb",
-      //  "storage": "32gb" 
-     //}
+	"remoteUser": "vscode",
+"postAttachCommand": "minikube start",
+ "hostRequirements": {
+        "cpus": 4,
+        "memory": "8gb",
+        "storage": "32gb" 
+     }
 
 }

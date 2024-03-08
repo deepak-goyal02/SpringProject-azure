@@ -34,9 +34,9 @@
 		"vscode": {		
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
-				"vscjava.vscode-java-pack",
-				"ms-vscode.vscode-node-azure-pack",
-				"Pivotal.vscode-boot-dev-pack",
+				//"vscjava.vscode-java-pack",
+				///"ms-vscode.vscode-node-azure-pack",
+				//"Pivotal.vscode-boot-dev-pack",
 				"hashicorp.terraform",
 				"ms-kubernetes-tools.vscode-kubernetes-tools"
 			]

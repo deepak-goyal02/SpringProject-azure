@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.191.1/containers/java
 {
-	"name": "Java",
+	//"name": "Java",
 	// "build": {
 	//	"dockerfile": "Dockerfile",
 	//	"args": {
@@ -15,10 +15,10 @@
 	//},
 
 	// Set *default* container specific settings.json values on container create.
-	"settings": { 
-		"java.home": "/docker-java-home",
-		"java.server.launchMode": "Standard"
-	},
+	//"settings": { 
+		//"java.home": "/docker-java-home",
+		//"java.server.launchMode": "Standard"
+	//},
 	
 	// Add the IDs of extensions you want installed when the container is created.
 	//"extensions": [
@@ -44,7 +44,7 @@
 	 "postCreateCommand": "java -version",
 
 	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-	"remoteUser": "vscode",
+	//"remoteUser": "vscode",
 "postAttachCommand": "minikube start",
  "hostRequirements": {
         "cpus": 4,

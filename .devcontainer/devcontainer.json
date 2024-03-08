@@ -28,10 +28,7 @@
 	//	"ms-vscode.vscode-node-azure-pack"
 	//],
 
-// Configure tool-specific properties.
-	"customizations": {
-		// Configure properties specific to VS Code.
-		"vscode": {		
+// Configure tool-specific properties.		
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
 				//"vscjava.vscode-java-pack",
@@ -39,9 +36,7 @@
 				//"Pivotal.vscode-boot-dev-pack",
 				"hashicorp.terraform",
 				"ms-kubernetes-tools.vscode-kubernetes-tools"
-			]
-		}
-	},
+			],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
@@ -49,12 +44,12 @@
 	// "postCreateCommand": "java -version",
 
 	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-	"remoteUser": "vscode",
-"postAttachCommand": "minikube start",
- "hostRequirements": {
-        "cpus": 4,
-        "memory": "8gb",
-        "storage": "32gb" 
-     }
+	//"remoteUser": "vscode",
+"postAttachCommand": "minikube start"
+// "hostRequirements": {
+  //      "cpus": 4,
+    //    "memory": "8gb",
+      //  "storage": "32gb" 
+     //}
 
 }

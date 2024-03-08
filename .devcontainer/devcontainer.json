@@ -21,12 +21,12 @@
 	},
 	
 	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": [
-		"vscjava.vscode-java-pack",
-		"Pivotal.vscode-boot-dev-pack",
-		"ms-vsliveshare.vsliveshare",
-		"ms-vscode.vscode-node-azure-pack"
-	],
+	//"extensions": [
+	//	"vscjava.vscode-java-pack",
+	//	"Pivotal.vscode-boot-dev-pack",
+	//	"ms-vsliveshare.vsliveshare",
+	//	"ms-vscode.vscode-node-azure-pack"
+	//],
 
 // Configure tool-specific properties.
 	"customizations": {
@@ -34,6 +34,9 @@
 		"vscode": {		
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
+				"vscjava.vscode-java-pack",
+				"ms-vscode.vscode-node-azure-pack",
+				"Pivotal.vscode-boot-dev-pack",
 				"hashicorp.terraform",
 				"ms-kubernetes-tools.vscode-kubernetes-tools"
 			]

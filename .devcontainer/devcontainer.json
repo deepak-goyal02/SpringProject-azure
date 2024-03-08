@@ -25,10 +25,20 @@
 		"vscjava.vscode-java-pack",
 		"Pivotal.vscode-boot-dev-pack",
 		"ms-vsliveshare.vsliveshare",
-		"ms-vscode.vscode-node-azure-pack",
-		"ms-kubernetes-tools.vscode-kubernetes-tools"
+		"ms-vscode.vscode-node-azure-pack"
 	],
 
+// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {		
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"hashicorp.terraform",
+				"ms-kubernetes-tools.vscode-kubernetes-tools"
+			]
+		}
+	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 

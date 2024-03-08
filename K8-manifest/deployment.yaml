@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: my-spring-boot-app
-        image: deepakgoel02/codespace/my-spring-boot-app:latest
+        image: deepakgoel02/my-spring-boot-app
         ports:
         - containerPort: 8080

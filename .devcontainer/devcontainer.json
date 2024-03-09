@@ -55,8 +55,8 @@
     "workspaceMount": "source=\"C:\\Users\\deepa\\Pictures\\Screenshots\",target=/home/vscode/dev,type=bind,consistency=cached",
  "workspaceMount": "source=\"C:\\Users\\deepa\\Pictures\\Screenshots\",target=/home/vscode/dev/extra,type=bind,consistency=cached",
 "mounts": [
-    "source="C:\\Users\deepa\\Pictures\\Screenshots",target=/host-home-folder,type=bind,consistency=cached",
-    "source="C:\\Users\deepa\\Pictures\\Screenshots",target=/data,type=bind,consistency=cached"
+    "source=\"C:\\Users\\deepa\\Pictures\\Screenshots\",target=/host-home-folder,type=bind,consistency=cached",
+    "source=\"C:\\Users\\deepa\\Pictures\\Screenshots\",target=/data,type=bind,consistency=cached"
 ]
 
 }

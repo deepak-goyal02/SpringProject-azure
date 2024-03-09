@@ -50,6 +50,10 @@
         "cpus": 4,
         "memory": "8gb",
         "storage": "32gb" 
-     }
+     },
+"mounts": [
+    "source=${localEnv:HOME}${localEnv:USERPROFILE},target=/host-home-folder,type=bind,consistency=cached"
+    //"source=${localWorkspaceFolder}/app-data,target=/data,type=bind,consistency=cached"
+]
 
 }

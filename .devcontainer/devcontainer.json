@@ -52,11 +52,11 @@
         "storage": "32gb" 
      },
 "workspaceFolder": "/home/vscode/dev",
-    "workspaceMount": "source=${localWorkspaceFolder},target=/home/vscode/dev,type=bind,consistency=cached",
- "workspaceMount": "source=${localEnv:HOME}${localEnv:USERPROFILE},target=/home/vscode/dev/extra,type=bind,consistency=cached",
+    "workspaceMount": "source=\"C:\\Users\\deepa\\Pictures\\Screenshots\",target=/home/vscode/dev,type=bind,consistency=cached",
+ "workspaceMount": "source=\"C:\\Users\\deepa\\Pictures\\Screenshots\",target=/home/vscode/dev/extra,type=bind,consistency=cached",
 "mounts": [
-    "source=${localEnv:HOME}${localEnv:USERPROFILE},target=/host-home-folder,type=bind,consistency=cached",
-    "source=${localWorkspaceFolder}/app-data,target=/data,type=bind,consistency=cached"
+    "source="C:\\Users\deepa\\Pictures\\Screenshots",target=/host-home-folder,type=bind,consistency=cached",
+    "source="C:\\Users\deepa\\Pictures\\Screenshots",target=/data,type=bind,consistency=cached"
 ]
 
 }

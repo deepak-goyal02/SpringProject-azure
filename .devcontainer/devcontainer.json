@@ -19,15 +19,7 @@
 		//"java.home": "/docker-java-home",
 		//"java.server.launchMode": "Standard"
 	//},
-	
-	// Add the IDs of extensions you want installed when the container is created.
-	//"extensions": [
-	//	"vscjava.vscode-java-pack",
-	//	"Pivotal.vscode-boot-dev-pack",
-	//	"ms-vsliveshare.vsliveshare",
-	//	"ms-vscode.vscode-node-azure-pack"
-	//],
-
+		
 // Configure tool-specific properties.		
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [

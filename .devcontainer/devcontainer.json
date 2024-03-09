@@ -51,9 +51,12 @@
         "memory": "8gb",
         "storage": "32gb" 
      },
+"workspaceFolder": "/home/vscode/dev",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/home/vscode/dev,type=bind,consistency=cached",
+ "workspaceMount": "source=${localEnv:HOME}${localEnv:USERPROFILE},target=/home/vscode/dev/extra,type=bind,consistency=cached",
 "mounts": [
-    "source=${localEnv:HOME}${localEnv:USERPROFILE},target=/host-home-folder,type=bind,consistency=cached"
-    //"source=${localWorkspaceFolder}/app-data,target=/data,type=bind,consistency=cached"
+    "source=${localEnv:HOME}${localEnv:USERPROFILE},target=/host-home-folder,type=bind,consistency=cached",
+    "source=${localWorkspaceFolder}/app-data,target=/data,type=bind,consistency=cached"
 ]
 
 }
